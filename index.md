@@ -66,50 +66,73 @@ Goby is a programming language I created for fun. And yes, I did spend almost fo
 	- https://www.youtube.com/watch?v=ldqb5u4pQb0
 	- https://www.slideshare.net/LoStan/what-would-your-own-version-of-ruby-look-like-rubykaigi
 
-## Awards
+## Open Source Contributions
 
-`2012`
-President, *Royal Society*, London, UK
+### Goby
+- Link to repo: https://github.com/goby-lang/goby
+- Link to documentations: https://goby-lang.org
+- Link to contributions page: https://github.com/goby-lang/goby/graphs/contributors
 
-Associate, *French Academy of Science*, Paris, France
+Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
+
+Some stats about the project
+- Has 37 contributors
+- Has a global team with people from Poland, Taiwan, Japan, U.S., Italy and many other countries
+- Gained almost 3000 stars
+- I gave 3 talks about it at international conferences (twice at Rubykaigi and once at RubyConfTW)
+
+### Rails
+Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)) (like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
+
+#### Major contributions (from old to recent)
+
+##### Cacheable view for ActionMailer
+
+- Link: https://github.com/rails/rails/pull/22825
+
+This PR is to allow users to use fragment caching on email templates, so they can save resources when sending out large amount of emails! This was my first meaningful contribution to Rails, and it’s one of Rails 5.0’s major features. It even got a [blog post](https://blog.bigbinary.com/2016/05/31/rails-5-provides-fragment-caching-in-action-mailer-view.html) about it. 
+
+##### Better logging of cached partial renders in ActionView
+
+- Link: https://github.com/rails/rails/pull/25825
+
+This is one of Rails 5.1’s features. It was requested by Rails’ creator DHH in [#23879](https://github.com/rails/rails/issues/23879). And what it did is very simple: 
+
+Change partial rendering logs from
+
+```
+Read fragment views/v1/2914079/v1/2914079/recordings/70182313-20160225015037000000/d0bdf2974e1ef6d31685c3b392ad0b74 (0.6ms)
+Rendered messages/_message.html.erb in 1.2 ms
+Write fragment views/v1/2914079/v1/2914079/recordings/70182313-20160225015037000000/3b4e249ac9d168c617e32e84b99218b5 (1.1ms)
+Rendered recordings/threads/_thread.html.erb in 1.5 ms
+```
+
+Into 
+
+```
+Rendered messages/_message.html.erb in 1.2 ms [cache hit]
+Rendered recordings/threads/_thread.html.erb in 1.5 ms [cache miss]
+```
 
 
+It may look like a simple change at the first glance, but it actually required a structural change on the `actionview` component in order to get the `[cache hit/miss]` information. And I wasn’t that familiar with `actionview` at that point, so it took me hundreds of hours to polish it and push it over the line (I think you might’ve guessed it from 61 comments in the PR).
 
-## Publications
+##### Add `Vary: Accept` header when using `Accept` header for response 
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+- Link: https://github.com/rails/rails/pull/36213
 
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+This PR fixes a 6 years old issue that caused many problem on different applications ([earliest report](https://github.com/rails/jquery-ujs/issues/318)). As it’s a header-related issue, you can imagine how broad the issue affected. This is a relatively recent work, just a few months ago. And I was already experienced enough to be able to pickup the unfinished conversation in https://github.com/rails/rails/issues/25842 and managed to gather feedbacks from different users to deliver a proper fix.
 
 
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
+### Other projects
+- [jsonapi-resources](https://github.com/cerebris/jsonapi-resources/pulls?q=is%3Apr+author%3Ast0012) - Some of my contributions are for different branches `release-0-9` so they’re marked as closed instead of merged
+- [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner/pull/405)
+- [formtastic](https://github.com/justinfrench/formtastic/pulls?q=is%3Apr+author%3Ast0012+is%3Aclosed)
+- [searchkick](https://github.com/ankane/searchkick/pulls?q=is%3Apr+author%3Ast0012+is%3Aclosed)
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Octobor 2019 -->
 
 
