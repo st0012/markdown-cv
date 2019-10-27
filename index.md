@@ -29,7 +29,7 @@ Ruby/Rails developer, Boxing lover, Toy maniac with a cat
   - Successfully reduced queries generated from some endpoints for 10~30% and in some cases reduced response time by 3x.
 
 ### Goby (2017/06 - 2017/10)
-- Goby is a programming language I created for fun. And yes, I did spend almost four months to work on my project full-time without any income ;-). [These](https://github.com/goby-lang/goby/graphs/contributors?from=2017-06-03&to=2017-09-30&type=c) are my commits created during this period. Some important feature of Goby are built in these few months, like
+Goby is a programming language I created for fun. And yes, I did spend almost four months to work on my project full-time without any income ;-). [These](https://github.com/goby-lang/goby/graphs/contributors?from=2017-06-03&to=2017-09-30&type=c) are my commits created during this period. Some important feature of Goby are built in these few months, like
   - Refactored components like virtual machine, parser..etc.
   - Implemented some core classes/libs like `Range`, `Regex`, `JSON`, `Float` ..etc.
   - Introduced Goby’s REPL, `igb` (interactive Goby, just like Ruby’s `irb`)
@@ -67,7 +67,7 @@ Ruby/Rails developer, Boxing lover, Toy maniac with a cat
 ## Open Source Contributions
 
 ### [Goby](https://github.com/goby-lang/goby)
-- Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
+Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
 - Some stats about the project
   - Has 37 contributors
   - Has a global team with people from Poland, Taiwan, Japan, U.S., Italy and many other countries
@@ -75,7 +75,7 @@ Ruby/Rails developer, Boxing lover, Toy maniac with a cat
   - I gave 3 talks about it at international conferences (twice at Rubykaigi and once at RubyConfTW)
 
 ### Rails
-- Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)(like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
+Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)(like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
   - [Cacheable view for ActionMailer](https://github.com/rails/rails/pull/22825)
   - [Better logging of cached partial renders in ActionView](https://github.com/rails/rails/pull/25825)
   - [Add `Vary: Accept` header when using `Accept` header for response](https://github.com/rails/rails/pull/36213)
