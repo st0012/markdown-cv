@@ -69,9 +69,7 @@ Goby is a programming language I created for fun. And yes, I did spend almost fo
 ## Open Source Contributions
 
 ### [Goby](https://github.com/goby-lang/goby)
-
 - Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
-
 - Some stats about the project
   - Has 37 contributors
   - Has a global team with people from Poland, Taiwan, Japan, U.S., Italy and many other countries
@@ -80,11 +78,9 @@ Goby is a programming language I created for fun. And yes, I did spend almost fo
 
 ### Rails
 - Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)(like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
-
   - [Cacheable view for ActionMailer](https://github.com/rails/rails/pull/22825)
   - [Better logging of cached partial renders in ActionView](https://github.com/rails/rails/pull/25825)
   - [Add `Vary: Accept` header when using `Accept` header for response](https://github.com/rails/rails/pull/36213)
-
 
 <!-- ### Footer
 
