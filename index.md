@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Stan Lo's CV
 ---
 # Stan Lo
 
@@ -54,22 +54,17 @@ Goby is a programming language I created for fun. And yes, I did spend almost fo
 	- [`Backme`](http://backme.tw): payment & customer management system  for crowdfunding projects
 	- `Crowdtrail`: an internal data aggregation system that collects campaign data from major crowdfunding platforms like [`Kickstarter`](https://www.kickstarter.com), [`Indiegogo`](https://www.indiegogo.com)..etc.
 
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
+## Conference/Meetup Talks
+- 2015 Taipei.rb
+	- https://www.youtube.com/watch?v=iCArCCKIkrU
+- 2017 RubyKaigi: 
+	- https://www.youtube.com/watch?v=GRNlTWzoC74
+	- https://www.slideshare.net/LoStan/goby-and-its-compiler
+- 2018 RubyConfTaiwan
+	- https://www.youtube.com/watch?v=CiLlQiHPVKc&t=3s
+- 2018 RubyKaigi: 
+	- https://www.youtube.com/watch?v=ldqb5u4pQb0
+	- https://www.slideshare.net/LoStan/what-would-your-own-version-of-ruby-look-like-rubykaigi
 
 ## Awards
 
