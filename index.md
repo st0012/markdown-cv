@@ -70,29 +70,20 @@ Goby is a programming language I created for fun. And yes, I did spend almost fo
 
 ### [Goby](https://github.com/goby-lang/goby)
 
-Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
+- Goby is a toy/experimental programming language I created few years ago. It’s written in Golang while largely inspired by Ruby & Golang. 
 
-Some stats about the project
+- Some stats about the project
   - Has 37 contributors
   - Has a global team with people from Poland, Taiwan, Japan, U.S., Italy and many other countries
   - Gained almost 3000 stars
   - I gave 3 talks about it at international conferences (twice at Rubykaigi and once at RubyConfTW)
 
 ### Rails
-Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)) (like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
+- Currently I’m [ranked at 164](https://contributors.rubyonrails.org/contributors/stan-lo/commits)) in total of 5000+ contributors. I have several important code contributions, as showed below. But besides writing code, I also do a lot of [issue triaging](https://github.com/rails/rails/issues?utf8=%E2%9C%93&q=is%253Aissue+commenter%253Ast0012)(like [this](https://github.com/rails/rails/issues/36177)) and [code reviews](https://github.com/rails/rails/pulls?q=is%3Apr+commenter%3Ast0012) (like [this](https://github.com/rails/rails/pull/36133)).
 
-#### Major contributions (from old to recent)
-
-- [Cacheable view for ActionMailer](https://github.com/rails/rails/pull/22825)
-- [Better logging of cached partial renders in ActionView](https://github.com/rails/rails/pull/25825)
-- [Add `Vary: Accept` header when using `Accept` header for response](https://github.com/rails/rails/pull/36213)
-
-
-### Other projects
-- [jsonapi-resources](https://github.com/cerebris/jsonapi-resources/pulls?q=is%3Apr+author%3Ast0012) - Some of my contributions are for different branches `release-0-9` so they’re marked as closed instead of merged
-- [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner/pull/405)
-- [formtastic](https://github.com/justinfrench/formtastic/pulls?q=is%3Apr+author%3Ast0012+is%3Aclosed)
-- [searchkick](https://github.com/ankane/searchkick/pulls?q=is%3Apr+author%3Ast0012+is%3Aclosed)
+  - [Cacheable view for ActionMailer](https://github.com/rails/rails/pull/22825)
+  - [Better logging of cached partial renders in ActionView](https://github.com/rails/rails/pull/25825)
+  - [Add `Vary: Accept` header when using `Accept` header for response](https://github.com/rails/rails/pull/36213)
 
 
 <!-- ### Footer
